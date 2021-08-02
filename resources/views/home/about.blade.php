@@ -1,8 +1,8 @@
 <div class="lg:pb-24 md:pb-20 lg:pt-5 sm:pb-20 bg-white">
-    <div class="flex justify-center pt-6 text-red-700 font-black lg:text-4xl md:2x1">
+    <div class="flex justify-center pt-6 text-red-600 font-black lg:text-4xl md:2x1">
         <h2>TEMUKAN KAMI</h2><br/>
     </div>
-    <div class="flex flex-wrap text-center container lg:px-32 justify-center text-red-700 font-bold">
+    <div class="flex flex-wrap text-center container px-5 lg:px-32 justify-center text-red-500 font-bold">
         Malas keluar rumah ? tenang saja, sekarang tidak perlu repot lagi untuk keluar rumah mencari Saos yang pas dengan makanan istimewa Anda setiap hari di rumah. Cukup sekali klik, kamu bisa langsung dapatkan produk Sambel Pedas Tjap 58 favoritmu.
     </div>
     <section class="overflow-hidden text-gray-700 ">

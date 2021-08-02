@@ -1,17 +1,17 @@
 <div class="bg-yellow-300 pb-20">
-    <div class="lg:flex lg:container mx-auto px-24 lg:font-bold md:text-sm py-5 text-red-500 text-center">
+    <div class="lg:flex lg:container mx-auto lg:px-24 md:px-10 py-5 text-red-500 text-center">
         {{-- KREASI RASA --}}
         <div class="lg:flex-none md:flex-1">
             <img class="items-center h-auto w-80" src="{{ asset('images/banner/Kreasi-Rasa.png') }}" />
         </div>
-        <div class="lg:flex-none md:flex-1">
+        <div class="lg:flex-none md:flex-1 font-bold">
             <p class="lg:pt-8 md:pt-2">
                 KREASI MAKANAN LEZAT DAN ISTIMEWA YANG DAPAT DIMASAK SETIAP HARI
             </p>
         </div>
     </div>
     <section class="overflow-hidden text-gray-700 ">
-        <div class="container px-5 mx-auto lg:pt-5 lg:px-24">
+        <div class="container px-5 mx-auto lg:pt-1 lg:px-24">
         <div class="flex flex-wrap -m-1 md:-m-2">
             <div class="flex flex-wrap w-1/2">
                 <div class="w-1/2 p-1 md:p-2">
