@@ -8,7 +8,7 @@
             <!-- Card -->
             <div class="max-w-md mx-auto overflow-hidden md:max-w-2xl">
                 <div class="md:flex">
-                    <div class="md:flex-shrink-0 md:w-1/3">
+                    <div class="md:flex-shrink-0 md:w-1/3 transform transition duration-500 hover:scale-110">
                         <img class="lg:h-60 lg:w-full object-scale-down md:h-10 md:w-36"
                             src="{{ asset('images/products/SAMBEL-PEDAS_BOTOL.png') }}"
                             alt="Man looking at item at a store">
@@ -35,7 +35,7 @@
             <div class="max-w-md mx-auto overflow-hidden md:max-w-2xl">
                 <div class="md:flex">
                     <div class="md:flex-shrink-0">
-                        <img class="lg:h-auto lg:pt-6 w-full object-cover md:h-10 md:w-48"
+                        <img class="lg:h-auto lg:pt-6 w-full object-cover md:h-10 md:w-48 transform transition duration-500 hover:scale-110"
                             src="{{ asset('images/products/SAMBEL-PEDAS_REFILL.png') }}"
                             alt="Man looking at item at a store">
                     </div>

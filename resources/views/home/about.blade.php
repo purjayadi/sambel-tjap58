@@ -11,7 +11,7 @@
                 <div class="flex flex-wrap w-1/6">
                     <div class="w-full p-1 md:p-2">
                         <a href="//https://shopee.co.id">
-                            <img alt="gallery" class="block object-scale-down object-center w-full h-full rounded-lg"
+                            <img alt="gallery" class="block object-scale-down object-center w-full h-full rounded-lg transform transition duration-500 hover:scale-105"
                             src="{{ asset('images/marketplace/shopee.png') }}">
                         </a>
                     </div>
@@ -19,7 +19,7 @@
                 <div class="flex flex-wrap w-1/6">
                     <div class="w-full p-1 md:p-2">
                         <a href="https://www.tokopedia.com/">
-                            <img alt="gallery" class="block object-scale-down object-center w-full h-full rounded-lg"
+                            <img alt="gallery" class="block object-scale-down object-center w-full h-full rounded-lg transform transition duration-500 hover:scale-105"
                             src="{{ asset('images/marketplace/tokopedia.png') }}">
                         </a>
                     </div>
@@ -27,7 +27,7 @@
                 <div class="flex flex-wrap w-1/6">
                     <div class="w-full p-1 md:p-2">
                         <a href="https://www.bukalapak.com/">
-                            <img alt="gallery" class="block object-scale-down object-center w-full h-full rounded-lg"
+                            <img alt="gallery" class="block object-scale-down object-center w-full h-full rounded-lg transform transition duration-500 hover:scale-105"
                             src="{{ asset('images/marketplace/bukalapak.png') }}">
                         </a>
                     </div>

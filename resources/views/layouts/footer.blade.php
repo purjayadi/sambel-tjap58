@@ -1,11 +1,11 @@
 <footer class="lg:px-40 bg-gray-100 text-gray-600 body-font">
     <div
         class="container px-4 py-10 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-        <div class="w-80 lg:flex-1 md:mx-0 mx-auto text-center md:text-left">
+        <div class="w-80 lg:flex-1 md:mx-2 mx-auto text-center md:text-left">
             <div class="w-80 md:flex items-center justify-center md:mx-0 mx-auto text-center md:text-left">
-                <div class="md:flex-shrink-0 sm:items-center sm:justify-center">
+                <div class="flex-shrink-0 md:items-center md:justify-center" style="text-align:-webkit-center">
                     <a href="{{ url('/') }}">
-                        <x-application-logo-home class="lg:h-60 sm:items-center sm:justify-center object-scale-down" />
+                        <x-application-logo-home class="lg:h-60 md:items-center md:justify-center " />
                     </a>
                 </div>
                 <div class="flex-shrink-0 pt-2">
