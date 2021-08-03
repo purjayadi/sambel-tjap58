@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,9 +15,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::resource('/', PageController::class);
+
+Route::get('produk', [PageController::class, 'product'])->name('page.product');
+Route::get('tentang-kami', [PageController::class, 'about'])->name("page.about");
 
 Route::get('/dashboard', function () {
     return view('dashboard');

@@ -2,9 +2,9 @@
     <div class="lg:flex lg:container mx-auto lg:px-24 md:px-10 py-5 text-red-500 text-center">
         {{-- KREASI RASA --}}
         <div class="lg:flex-none md:flex-1">
-            <img class="items-center h-auto w-80" src="{{ asset('images/banner/Kreasi-Rasa.png') }}" />
+            <img class="items-center h-16 w-52 lg:auto lg:w-80" src="{{ asset('images/banner/Kreasi-Rasa.png') }}" />
         </div>
-        <div class="lg:flex-none md:flex-1 font-bold">
+        <div class="lg:flex-none md:flex-1 lg:font-bold lg:text-base text-sm">
             <p class="lg:pt-8 md:pt-2">
                 KREASI MAKANAN LEZAT DAN ISTIMEWA YANG DAPAT DIMASAK SETIAP HARI
             </p>

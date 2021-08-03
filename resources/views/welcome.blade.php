@@ -2,5 +2,5 @@
     @include('components.slider')
     @include('home.product')
     @include('home.kreasirasa')
-    @include('home.about')
+    @include('home.findUs')
 </x-home-layout>

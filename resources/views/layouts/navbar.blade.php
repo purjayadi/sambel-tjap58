@@ -1,4 +1,4 @@
-<nav x-data="{ open: false }" class=" lg:fixed bg-opacity-60 bg-gray-50 z-30 object-top shadow-md w-full">
+<nav x-data="{ open: false }" class=" lg:fixed bg-opacity-40 bg-gray-50 z-30 object-top shadow-md w-full">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="relative flex items-center justify-between h-16">
         <div class="flex-1 flex items-center justify-center sm:items-stretch  sm:justify-start">
@@ -10,16 +10,17 @@
             <div class="flex-1 flex items-center sm:justify-end">
                 <div class="hidden space-x-2 sm:-my-px sm:justify-end sm:ml-10 sm:flex">
                     <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                    <x-navbar-link :href="url('/')" :active="request()->url('/')">
+                    <x-navbar-link :href="route('index')" :active="request()->routeIs('index')">
                         {{ __('HOME') }}
                     </x-navbar-link>
 
-                    <a href="#"
-                        class="text-gray-700 hover:bg-red-500 hover:text-white px-3 py-2 rounded-md text-sm font-bold">PRODUCT</a>
+                    <x-navbar-link :href="route('page.product')" :active="request()->routeIs('page.product')">
+                        {{ __('PRODUCT') }}
+                    </x-navbar-link>
 
-                    <a href="#"
-                        class="text-gray-700 hover:bg-red-500 hover:text-white px-3 py-2 rounded-md text-sm font-bold">ABOUT
-                        US</a>
+                    <x-navbar-link :href="route('page.about')" :active="request()->routeIs('page.about')">
+                        {{ __('ABOUT US') }}
+                    </x-navbar-link>
 
                     <a href="#"
                         class="text-gray-700 hover:bg-red-500 hover:text-white px-3 py-2 rounded-md text-sm font-bold">CONTACT
