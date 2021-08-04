@@ -1,5 +1,5 @@
 <x-home-layout>
-    <div class='lg:px-24 px-5 py-5 bf-fixed text-center lg:py-24 h-screen' style="background-image: url({{ asset('images/background_contact_us_2.jpg') }})">
+    <div class='lg:px-24 px-5 py-5 bf-fixed text-center lg:py-24' style="background-image: url({{ asset('images/background_contact_us_2.jpg') }})">
         <div class='font-bold text-center pb-5 flex-auto text-red-600 lg:text-2xl md:text-2x1'>
             TENTANG SAOS TJAP 58
         </div>
@@ -25,4 +25,5 @@
             </div>
         </div>
     </div>
+    @include('home.findUs')
 </x-home-layout>
