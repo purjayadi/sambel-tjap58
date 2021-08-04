@@ -1,5 +1,5 @@
 <x-home-layout>
-    <div class="bg-gradient-to-b from-yellow-400 to-red-400 lg:px-20 px-5">
+    <div class="bg-gradient-to-b bg-fixed from-yellow-400 to-red-400 lg:px-20 px-5" style="background-image: url({{ asset('images/background_contact_us_2.jpg') }})">
         <div class="lg:flex lg:pt-24 justify-center pt-6 lg:pb-10  text-red-500 items-center">
             {{-- PRODUK KAMI --}}
             <img class="items-center h-auto w-80" src="{{ asset('images/banner/Produk-Kami.png') }}" />

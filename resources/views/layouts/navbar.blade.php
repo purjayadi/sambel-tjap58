@@ -13,18 +13,15 @@
                     <x-navbar-link :href="route('index')" :active="request()->routeIs('index')">
                         {{ __('HOME') }}
                     </x-navbar-link>
-
                     <x-navbar-link :href="route('page.product')" :active="request()->routeIs('page.product')">
                         {{ __('PRODUCT') }}
                     </x-navbar-link>
-
                     <x-navbar-link :href="route('page.about')" :active="request()->routeIs('page.about')">
                         {{ __('ABOUT US') }}
                     </x-navbar-link>
-
-                    <a href="#"
-                        class="text-gray-700 hover:bg-red-500 hover:text-white px-3 py-2 rounded-md text-sm font-bold">CONTACT
-                        US</a>
+                    <x-navbar-link :href="route('page.contact')" :active="request()->routeIs('page.contact')">
+                        {{ __('CONTACT US') }}
+                    </x-navbar-link>
                     <button class="text-gray-700  hover:text-red-500 px-3 py-2 rounded-md text-sm font-bold" onclick="openDropdown(event,'dropdown-example-1')"><i
                             class="fa fa-bars text-sm leading-lg opacity-75"> </i></button>
                     <div class="flex flex-wrap">

@@ -19,6 +19,7 @@ Route::resource('/', PageController::class);
 
 Route::get('produk', [PageController::class, 'product'])->name('page.product');
 Route::get('tentang-kami', [PageController::class, 'about'])->name("page.about");
+Route::get('kontak', [PageController::class, 'contact'])->name("page.contact");
 
 Route::get('/dashboard', function () {
     return view('dashboard');
